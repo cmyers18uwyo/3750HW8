@@ -46,10 +46,12 @@ int main()
       switch(rtn) {
         case WORD:
           printf("%s\n",lexeme);
+          printf("conf");
           break;
         case ERROR_CHAR:
           printf("%d: %s\t =%d\n",rtn,tokens[rtn%96],error_char);
           break;
+        break;
         default:
           printf("%d: %s\n",rtn,tokens[rtn%96]);
       }
