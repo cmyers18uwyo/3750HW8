@@ -2,8 +2,8 @@
 #Makefile
 #Charles Myers
 #COSC 3750 Spring 2021
-#Homework 9
-#April 6, 2021
+#Homework 8
+#April 16, 2021
 #
 #This file will compile the  files for HW8
 ##################################
